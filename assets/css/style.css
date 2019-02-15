@@ -1,4 +1,6 @@
 /* header styles */
+#navbarSupportedContent {}
+
 .fullheader {
     background: #ffffff;
     width: 100%;
@@ -97,6 +99,7 @@ p {
 .imgMe {
     float: left;
     margin: 8px 12px 0px 0px;
+
 }
 
 /* styling for the footer on each page */

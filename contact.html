@@ -29,17 +29,20 @@
     <h2>
       Contact
     </h2>
-    <form>
+    <form class="form-group">
       Name:<br>
-      <input class="form-inputs" type="text" name="Name"><br>
+      <input class="form-control" type="text" placeholder="Enter Name">
       <br>
-      Email:<br>
-      <input class="form-inputs" type="text" name="Email"><br>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email address:</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Message:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
       <br>
-      Message:<br>
-      <textarea class="form-inputs" name="Message" style="height: 100px;"></textarea>
-      <br><br>
-      <button type="button" onclick="alert('Thanks for submitting this form for no reason!')">Submit</button>
+      <button type="button" class="btn btn-secondary" onclick="alert('Thanks for submitting this form for no reason!')">Submit</button>
     </form>
   </div>
   <br><br>
