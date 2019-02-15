@@ -1,0 +1,178 @@
+/* header styles */
+.fullheader {
+    background: #ffffff;
+    width: 100%;
+    height: 85px;
+    border-bottom: solid 2px #cccccc;
+    margin-top: -10px;
+}
+
+.top-section {
+    width: 960px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+h1 {
+    width: 270px;
+    background: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    height: 64px;
+    padding: 20px 0px 0px 4px;
+    margin-bottom: 10px;
+    position: relative;
+    top: -20px;
+}
+
+.linkinginfo {
+    float: right;
+    position: relative;
+    top: 10px;
+    font-weight: normal;
+}
+
+/* font for headings only  */
+h1,
+h2,
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/* text color for the linking info in the header */
+h3,
+a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+/* styling for main sections */
+h2 {
+    color: #4aaaa5;
+    padding: 10px 0px 20px 5px;
+    border-bottom: solid 2px #cccccc;
+}
+
+input,
+textarea {
+    border: solid 1px lightgray;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 5px;
+}
+
+.about-me,
+.contact-info,
+.portfolio {
+    width: 960px;
+    height: 550px;
+    background: #ffffff;
+    color: #dddddd;
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+body {
+    background-image: url("../images/white-waves.png");
+}
+
+form {
+    padding-left: 10px;
+    color: black;
+}
+
+p {
+    color: darkgray;
+    float: left;
+    line-height: 130%;
+    font-size: 18px
+}
+
+/* styling for the image on the index page */
+.imgMe {
+    float: left;
+    margin: 8px 12px 0px 0px;
+}
+
+/* styling for the footer on each page */
+/* .footer {
+    background: #666666;
+    height: 0px;
+    position: sticky;
+    border-top: 8px solid #4aaaa5;
+    border-bottom: 1px solid #666666;
+    margin: 0px -10px -100px -10px;
+    clear: both;
+    right: 0px;
+    bottom: -10px;
+    color: #cccccc;
+    text-align: center;
+    padding-top: 42px;
+} */
+
+.card-header {
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    color: grey;
+    margin: 0px -10px -100px -10px;
+    height: 100px;
+    padding-top: 30px;
+}
+
+
+/* all images on the portfolio page */
+.gallery1 {
+    float: left;
+    overflow: auto;
+    margin: 20px 40px 20px 20px;
+    height: 150px;
+    width: 200px;
+}
+
+.gallery2 {
+    float: left;
+    overflow: auto;
+    margin: 20px 40px 20px 20px;
+    height: 150px;
+    width: 200px;
+}
+
+.gallery3 {
+    float: left;
+    overflow: auto;
+    margin: 20px 40px 20px 20px;
+    height: 150px;
+    width: 200px;
+}
+
+.gallery4 {
+    float: left;
+    overflow: auto;
+    margin: 20px 20px 20px 20px;
+    height: 150px;
+    width: 200px;
+}
+
+.gallery5 {
+    float: left;
+    overflow: auto;
+    margin: 20px 30px 20px 20px;
+    height: 150px;
+    width: 200px;
+}
+
+
+/* image description stying for portfolio page */
+.desc {
+    background: #4aaaa5;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    top: -42px;
+    color: white;
+}
