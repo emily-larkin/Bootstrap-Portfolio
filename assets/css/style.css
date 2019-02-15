@@ -1,5 +1,16 @@
 /* header styles */
-#navbarSupportedContent {}
+#navbarSupportedContent {
+    margin-left: 520px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.navbar-brand {
+    margin-left: 250px;
+    background: #4aaaa5;
+    color: white;
+    padding: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
 
 .fullheader {
     background: #ffffff;
