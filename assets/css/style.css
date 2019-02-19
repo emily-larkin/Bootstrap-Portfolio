@@ -4,7 +4,7 @@
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.navbar-brand {
+.navbar-brand.headerBox {
     margin-left: 250px;
     background: #4aaaa5;
     color: white;
@@ -12,16 +12,20 @@
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.fullheader {
+.container {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/* .fullheader {
     background: #ffffff;
     width: 100%;
     height: 85px;
     border-bottom: solid 2px #cccccc;
     margin-top: -10px;
-}
+} */
 
 .top-section {
-    width: 960px;
     margin: 0 auto;
     height: 100px;
 }
@@ -80,7 +84,6 @@ button {
 .about-me,
 .contact-info,
 .portfolio {
-    width: 960px;
     height: 550px;
     background: #ffffff;
     color: #dddddd;
@@ -128,6 +131,11 @@ p {
     text-align: center;
     padding-top: 42px;
 } */
+
+.footer {
+    min-width: 340px;
+    position: sticky;
+}
 
 .card-header {
     border-top: 8px solid #4aaaa5;
