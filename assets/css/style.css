@@ -4,6 +4,10 @@
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+#descLink {
+    color: white;
+}
+
 .navbar-brand {
     background: #4aaaa5;
     color: white;
@@ -74,8 +78,7 @@ h3 {
 }
 
 /* text color for the linking info in the header */
-h3,
-a {
+h3 {
     color: darkgray;
     text-decoration: none;
 }
